@@ -3,23 +3,28 @@ body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     /*font-weight: 400;regular 500;medium*/
+    background-color: #1C1C1C;
+    color: #fff;
 }
-.
-header {
+a {
+    color: #fff;
+    text-decoration: none;
 }
-
-.
-header_logo {
+ul {
+    list-style: none;
 }
-
-.
-header_nav {
-}
-
-.
-header_list {
+.header {
+    
 }
 
-.
-btn {
+.header_logo {
+}
+
+.header_nav {
+}
+
+.header_list {
+}
+
+.btn {
 }

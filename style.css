@@ -336,8 +336,8 @@ img {
 .footer {
     padding: 120px 0;
 }
-.footer a{
-    font-size: 14px;
+.footer a {
+    font-size: 16px;
     opacity: 0.8;
 }
 .footer .container {
@@ -365,9 +365,9 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.footer-title {
+.footer_title {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     opacity: 1;
 }
 .footer_list_title {
@@ -375,6 +375,7 @@ img {
 .footer_inner_list {
 }
 .footer_list_item {
+    
 }
 .footer_title {
 }

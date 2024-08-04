@@ -197,6 +197,7 @@ img {
 }
 .order_old_price {
     font-weight: 500;
+    font-size: 15px;
     letter-spacing: 0.1em;
     text-decoration: line-through;
     opacity: 0.5;

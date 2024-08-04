@@ -11,11 +11,17 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
     /*p0 + padding: 0; тоже самое и m0 df = display: flex; jc = justify-content: center; тоже самое и ai*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
 }
 
 .container{
@@ -53,18 +59,11 @@ ul {
     align-items: center;
 }
 
-.header_logo {
-}
-
-.header_nav {
-
-}
 .header_nav a{
     font-size: 14px;
     opacity: 0.7;
     transition: opacity 0.3s;
 }
-
 
 .header_nav a.active{
     opacity: 1;
@@ -79,4 +78,35 @@ ul {
     gap: 28px;/*расстояние между*/
 }
 
+.main {
 
+}
+
+/* приветственная секция */
+
+.welcome {
+    background-image: url("./images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* растягивает картинку на всю ширину */
+}
+
+.welcome__text{
+    width: 550px;
+}
+
+.welcome__subtitle {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+}
+
+.welcome__title {
+    font-size: 58px;
+}
+
+.welcome__desc {
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 40px 0;
+}

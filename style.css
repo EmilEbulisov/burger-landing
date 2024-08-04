@@ -278,9 +278,16 @@ img {
     margin-left: 50px;
 }
 /* пятая секция */
+.feedback{
+    padding-bottom: 200px;
+}
 .feedback .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
+    max-width: 880px;
+
     
 }
 .container {

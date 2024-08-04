@@ -256,6 +256,7 @@ img {
 .product_old_price {
     text-decoration-line: line-through;
     opacity: 0.5;
+    color: #F6762C;
 }
 .product .btn {
     margin-top: 10px;
@@ -265,4 +266,21 @@ img {
 
 }
 .btn--small {
+    width: 141px;
+    height: 39px;
+    font-size: 12px;
+}
+
+.p_1{
+    width: 252px;
+    height: 174px;
+    margin-top: 70px;
+    margin-left: 290px;
+}
+
+.p_2{
+    width: 252px;
+    height: 174px;
+    margin-top: 70px;
+    margin-left: 50px;
 }

@@ -223,16 +223,16 @@ img {
     height: 300px;
 }
 .product_1 {
-    background-image: url("/images/product-1.jpg");
+    background-image: url("./images/product-1.jpg");
 }
 .product_2 {
-    background-image: url("/images/product-2.jpg");
+    background-image: url("./images/product-2.jpg");
 }
 .product_3 {
-    background-image: url("/images/product-3.jpg");
+    background-image: url("./images/product-3.jpg");
 }
 .product_4 {
-    background-image: url("/images/product-4.jpg");
+    background-image: url("./images/product-4.jpg");
 }
 .product_h {
     margin-bottom: 20px;
@@ -379,8 +379,6 @@ img {
 .footer_link-web::before{
     content: url("/images/icons/global.svg")
 }
-.footer_nav {
-}
 .footer_list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -390,15 +388,9 @@ img {
     font-size: 20px;
     color: #fff;
 }
-.footer_list_title {
-}
-.footer_inner_list {
-}
 .footer_list_item {
     margin-top: 15px;
     
-}
-.footer_title {
 }
 .footer_socials {
     display: flex;

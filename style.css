@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-body{
+body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     /*font-weight: 400;regular 500;medium*/
@@ -12,19 +12,37 @@ a {
 }
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    /*p0 + padding: 0; тоже самое и m0 df = display: flex; jc = justify-content: center; тоже самое и ai*/
 }
+.btn {
+}
+/*шапка*/
 .header {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header_logo {
 }
 
 .header_nav {
+
+}
+.header_nav a{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.header_nav a.active{
+    opacity: 1;
 }
 
 .header_list {
+    display: flex;
+    gap: 28px;/*расстояние между*/
 }
 
-.btn {
-}
+

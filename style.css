@@ -332,3 +332,53 @@ img {
     font-weight: 500;
     font-size: 40px;
 }
+/* подвал */
+.footer {
+    padding: 120px 0;
+}
+.footer a{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+.footer_menu{
+
+}
+.footer_contacts {
+}
+.footer_logo {
+}
+.footer_link {
+    
+}
+.footer_link-mail {
+}
+.footer_link-web {
+}
+.footer_nav {
+}
+.footer_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 1;
+}
+.footer_list_title {
+}
+.footer_inner_list {
+}
+.footer_list_item {
+}
+.footer_title {
+}
+.footer_socials {
+}
+.socials_image {
+}

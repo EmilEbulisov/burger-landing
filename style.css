@@ -209,8 +209,6 @@ img {
 .product {
     padding: 150px 0;
 }
-.container {
-}
 .product_cards {
     display: flex;
     align-content: space-around;
@@ -219,28 +217,21 @@ img {
     gap: 30px;
     
 }
-.product_1 {
-    background-image: url("/images/product-1.jpg");
+.product_card{
     width: 555px;
     height: 300px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+}
+.product_1 {
+    background-image: url("/images/product-1.jpg");
 }
 .product_2 {
     background-image: url("/images/product-2.jpg");
-    width: 555px;
-    height: 300px;
 }
 .product_3 {
     background-image: url("/images/product-3.jpg");
-    width: 555px;
-    height: 300px;
-    margin-right: 30px;
 }
 .product_4 {
     background-image: url("/images/product-4.jpg");
-    width: 555px;
-    height: 300px;
 }
 .product_h {
     margin-bottom: 20px;

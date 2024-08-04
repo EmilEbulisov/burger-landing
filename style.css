@@ -165,7 +165,7 @@ img {
     font-size: 16px;
     opacity: 0.7;
 }
-
+/* третья секция */
 .order {
     background-color: #312F30;
     padding: 60px 0;
@@ -205,7 +205,7 @@ img {
 .order .btn {
     margin-top: 10px;
 }
-
+/* четвертая секция */
 .product {
     padding: 150px 0;
 }
@@ -276,4 +276,19 @@ img {
     height: 174px;
     margin-top: 70px;
     margin-left: 50px;
+}
+/* пятая секция */
+.feedback {
+}
+.container {
+}
+.feedback_img {
+}
+.feedback_text {
+}
+.feedback_ {
+}
+.feedback_author {
+}
+.feedback_sub_author {
 }

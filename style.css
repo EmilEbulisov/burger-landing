@@ -130,6 +130,9 @@ img {
 
 .food-list__card {
     width: 260px;
+    overflow: hidden;
+    background-color: #312F30;
+    border-radius: 10px;
 
 }
 

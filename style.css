@@ -278,14 +278,19 @@ img {
     margin-left: 50px;
 }
 /* пятая секция */
-.feedback {
+.feedback .container{
+    display: flex;
+    align-items: center;
+    
 }
 .container {
+
 }
 .feedback_img {
 }
 .feedback_text {
     margin: 0;
+    width: 370px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -298,7 +303,7 @@ img {
 
 .feedback_p {
     opacity: 0.7;
-    margin-bottom: 30px;
+    margin: 40px 0 30px;
 }
 .feedback_author {
     font-weight: 500;
@@ -310,4 +315,5 @@ img {
     font-weight: 500;
     font-size: 12px;
     opacity: 0.7;
+    display: block;
 }

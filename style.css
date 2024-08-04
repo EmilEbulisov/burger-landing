@@ -298,7 +298,7 @@ img {
 }
 
 .feedback_text::before {
-    content: url("/images/icons/quote.svg");
+    content: url("./images/icons/quote.svg");
     /* псевдоэлемент */
 }
 

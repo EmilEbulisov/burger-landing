@@ -171,15 +171,15 @@ img {
     padding: 60px 0;
 }
 .order .container {
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 150px;
+    padding-left: 50px;
 }
-.order-text_i {
-    max-width: 50%;
-}
-.order-text {
-    padding: 100px;
+.order-text{
+    max-width: 360px;
 }
 .order_h {
     margin-bottom: 25px;

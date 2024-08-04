@@ -285,10 +285,29 @@ img {
 .feedback_img {
 }
 .feedback_text {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-.feedback_ {
+
+.feedback_text::before {
+    content: url("/images/icons/quote.svg");
+    /* псевдоэлемент */
+}
+
+.feedback_p {
+    opacity: 0.7;
+    margin-bottom: 30px;
 }
 .feedback_author {
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+
 }
 .feedback_sub_author {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
 }
